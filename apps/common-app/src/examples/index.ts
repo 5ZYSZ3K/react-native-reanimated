@@ -11,6 +11,7 @@ import AnimatedSensorRotationExample from './AnimatedSensorRotationExample';
 import AnimatedStyleUpdateExample from './AnimatedStyleUpdateExample';
 import AnimatedTabBarExample from './AnimatedTabBarExample';
 import AnimatedTextWidthExample from './AnimatedTextWidthExample';
+import AnimatedPathExample from './AnimatedPathExample';
 import ArticleProgressExample from './ArticleProgressExample';
 import BabelVersionCheckExample from './BabelVersionCheckExample';
 import BasicLayoutAnimation from './LayoutAnimations/BasicLayoutAnimation';
@@ -276,6 +277,11 @@ export const EXAMPLES: Record<string, Example> = {
     icon: '📈',
     title: 'Amount',
     screen: AmountExample,
+  },
+  AnimatedPathExample: {
+    icon: '△',
+    title: 'AnimatedPathExample',
+    screen: AnimatedPathExample,
   },
   CounterExample: {
     icon: '🎰',
